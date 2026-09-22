@@ -1,0 +1,9 @@
+Row Major:
+53632 347898375840389362
+when we traverse in Row Major order, the next element in the array is the next space in memory.
+As such, it's much easier to traverse through the array
+
+Column Major:
+55882 347898375840389362
+In Column Major order, each element we access is 4000 elements away in memory causing us to have
+to jump around rather that just go to the next element. As such, it takes longer.
